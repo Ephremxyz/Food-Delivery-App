@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct FoodDeliveryApp: View {
+struct DerashFoodDeliveryApp: View {
   @State private var selectedRestaurant = "Restaurant 1"
   @State private var selectedFood = "Food 1"
 
@@ -27,8 +27,8 @@ struct FoodDeliveryApp: View {
   }
 }
 
-struct FoodDeliveryApp_Previews: PreviewProvider {
+struct DerashFoodDeliveryApp_Previews: PreviewProvider {
   static var previews: some View {
-    FoodDeliveryApp()
+    DerashFoodDeliveryApp()
   }
 }
