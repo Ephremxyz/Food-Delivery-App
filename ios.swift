@@ -1,5 +1,5 @@
 import SwiftUI
-   
+    
 struct DerashFoodDeliveryApp: View {  
    
   @State private var selectedRestaurant = "Restaurant 1" 
