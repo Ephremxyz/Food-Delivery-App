@@ -3,7 +3,7 @@ This is a simple food delivery app that allows users to select a restaurant and 
 
 Features
 Select a restaurant from a list of restaurants.
-Select a food from the restaurant's menu.
+Select a food from the restaurant's menu. 
 Add the food to the cart.
 Requirements
 Flutter 2.5.3 
