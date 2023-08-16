@@ -6,7 +6,7 @@ Select a restaurant from a list of restaurants.
 Select a food from the restaurant's menu.
 Add the food to the cart.
 Requirements
-Flutter 2.5.3
+Flutter 2.5.3 
 Xcode 13.2.1 
 Getting Started
 Clone the repository.
