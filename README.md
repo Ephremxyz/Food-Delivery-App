@@ -7,7 +7,7 @@ Select a food from the restaurant's menu.
 Add the food to the cart.
 Requirements
 Flutter 2.5.3
-Xcode 13.2.1
+Xcode 13.2.1 
 Getting Started
 Clone the repository.
 Open the project in Xcode.
