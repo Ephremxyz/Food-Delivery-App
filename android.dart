@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {           
     return MaterialApp(                           
       title: 'Derash Food Delivery App',          
-      home: HomePage(),           
+      home: HomePage(),            
     );       
   }          
 }         
