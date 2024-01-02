@@ -11,7 +11,7 @@ const loginForm = document.getElementById("login-form");
 loginForm.addEventListener("submit", (event) => {      
   event.preventDefault(); 
   // Validate user credentials 
-  // Authenticate user with the database 
+  // Authenticate user with the database  
   
 });
 // Fetch restaurants from the database
