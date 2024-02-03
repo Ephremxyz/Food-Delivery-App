@@ -1,11 +1,11 @@
-
+ 
 // Registration
 const registerForm = document.getElementById("register-form");
 registerForm.addEventListener("submit", (event) => {   
   event.preventDefault();  
   // Validate user input                
   // Send registration data to the database                   
-});                                                  
+});                                                   
                                                
 // Login                                        
 const loginForm = document.getElementById("login-form");                              
