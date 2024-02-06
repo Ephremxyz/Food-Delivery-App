@@ -26,3 +26,129 @@
 .restaurant-card .rating span {
   color: gold;
 }
+/* General styles */
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Header */
+
+header {
+  background-color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+header nav {
+  float: right;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav li {
+  margin-right: 20px;
+}
+
+header nav a {
+  font-size: 16px;
+  color: #000;
+}
+
+/* Banner */
+
+.banner {
+  background-image: url("images/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.banner h2 {
+  color: #fff;
+  font-size: 48px;
+  text-align: center;
+  padding-top: 150px;
+}
+
+/* Products */
+
+.products {
+  padding: 20px;
+}
+
+.products h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.products ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.products li {
+  width: 25%;
+  margin-bottom: 20px;
+}
+
+.products li a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
+
+.products li img {
+  width: 100%;
+  height: auto;
+}
+
+.products li h4 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.products li p {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+/* Footer */
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+}
+
+footer p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: #fff;
+}
