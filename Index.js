@@ -11,7 +11,7 @@ registerForm.addEventListener("submit", (event) => {     m
 const loginForm = document.getElementById("login-form");                                                              
 loginForm.addEventListener("submit", (event) => {                                                
   event.preventDefault();                        
-  // Validate user credentials                 
+  // Validate user credentials                  
   // Authenticate user with the database       
      
 });
