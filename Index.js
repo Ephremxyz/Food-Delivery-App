@@ -6,7 +6,7 @@ registerForm.addEventListener("submit", (event) => {     m
   // Validate user input                                                     
                                                                     
   // Send registration data to the database                                                                               
-});                                                                                                                  
+});                                                                                                                   
 // Login                                                                                               
 const loginForm = document.getElementById("login-form");                                                                              
 loginForm.addEventListener("submit", (event) => {                                                      
