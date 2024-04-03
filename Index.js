@@ -1,4 +1,3 @@
-      
 // Registration   
 const registerForm = document.getElementById("register-form"); 
 registerForm.addEventListener("submit", (event) => {     m    
