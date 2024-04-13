@@ -1,5 +1,5 @@
   // Registration   
-const registerForm = document.getElementById("register-form"); 
+const registerForm = document.getElementById("register-form");  
 registerForm.addEventListener("submit", (event) => {     m     
   event.preventDefault();                        
   // Validate user input                                                             
