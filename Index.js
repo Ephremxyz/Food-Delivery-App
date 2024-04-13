@@ -14,7 +14,7 @@ loginForm.addEventListener("submit", (event) => {
   // Authenticate user with the database          
      
 });
-// Fetch restaurants from the database
+// Fetch restaurants from the database 
 fetch("/restaurants")
   .then((response) => response.json())
   .then((restaurants) => {
