@@ -65,3 +65,14 @@ menu.forEach(category => {
 
 // Add interactivity (clickable items, search, filtering, ordering)
 // based on your desired features
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else {
+    // Handle error if geolocation is not supported
+  }
+}
+
+function showPosition(position) {
+  // Use the latitude and longitude to display the user's location or pre-fill the delivery address
+}
