@@ -2,7 +2,7 @@
 const registerForm = document.getElementById("register-form");    
 registerForm.addEventListener("submit", (event) => {     m         
   event.preventDefault();                            
-  // Validate user input                                                                       
+  // Validate user input                                                                        
  // Send registration data to the database                                                  
 });                                                   
 // Login                                            
