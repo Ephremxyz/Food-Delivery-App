@@ -11,7 +11,7 @@ loginForm.addEventListener("submit", (event) => {
   event.preventDefault();                                           
   // Validate user credentials                            
   // Authenticate user with the database             
-      
+       
 });
 // Fetch restaurants from the database  
 fetch("/restaurants")
