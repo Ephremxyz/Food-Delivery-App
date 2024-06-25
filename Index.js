@@ -7,7 +7,7 @@ registerForm.addEventListener("submit", (event) => {
 });         
   
 // Login                                                                                                                                 
-const loginForm = document.getElementById("login-form");                
+const loginForm = document.getElementById("login-form");                 
 loginForm.addEventListener("submit", (event) => {                                               
    
   event.preventDefault();                                                     
