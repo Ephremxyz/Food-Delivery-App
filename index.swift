@@ -8,7 +8,7 @@ struct DerashFoodDeliveryApp: View {
     VStack {                
       Text("Select a restaurant")    
       Picker(selection: $selectedRestaurant, label: Text("Restaurant")) {       
-        Text("Restaurant 1")   
+        Text("Restaurant 1")    
         Text("Restaurant 2")
         Text("Restaurant 3")
       }
