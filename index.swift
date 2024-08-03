@@ -10,7 +10,7 @@ struct DerashFoodDeliveryApp: View {
       Picker(selection: $selectedRestaurant, label: Text("Restaurant")) {       
         Text("Restaurant 1")     
         Text("Restaurant 2")
-        Text("Restaurant 3") 
+        Text("Restaurant 3")  
       }
       Text("Select a food")
       Picker(selection: $selectedFood, label: Text("Food")) {
