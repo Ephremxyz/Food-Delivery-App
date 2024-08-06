@@ -2,7 +2,7 @@ import SwiftUI
   
 struct DerashFoodDeliveryApp: View {         
   @State private var selectedRestaurant = "Restaurant 1"                         
-  @State private var selectedFood = "Food 1"                                   
+  @State private var selectedFood = "Food 1"                                    
                                     
   var body: some View {                            
     
