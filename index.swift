@@ -6,7 +6,7 @@ struct DerashFoodDeliveryApp: View {
                                             
   var body: some View {                                 
   
-    VStack {                      
+    VStack {                       
       Text("Select a restaurant")        
       Picker(selection: $selectedRestaurant, label: Text("Restaurant")) {       
         Text("Restaurant 1")      
